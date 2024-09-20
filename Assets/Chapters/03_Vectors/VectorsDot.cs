@@ -12,8 +12,8 @@ public class VectorsDot : MonoBehaviour
 		Vector2 v1_normalized = v1.normalized;
 		Vector2 v2_normalized = v2.normalized;
 
-		float dot_unnormalized = Vector3.Dot(v1, v2);
-		float dot_normalized = Vector3.Dot(v1_normalized, v2_normalized);
+		float dot_unnormalized = Vector2.Dot(v1, v2);
+		float dot_normalized = Vector2.Dot(v1_normalized, v2_normalized);
 		float theta = Mathf.Acos(dot_normalized) * Mathf.Rad2Deg;
 
 		//
